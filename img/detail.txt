@@ -1,0 +1,1 @@
+This folder contains the images that were referred in the HTML files.
