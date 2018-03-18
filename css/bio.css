@@ -1,0 +1,143 @@
+/*RESOURCES
+
+for the rounded image
+https://www.w3schools.com/howto/howto_css_rounded_images.asp
+
+for the background gradient effect
+https://www.w3schools.com/css/css3_gradients.asp
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear_angles
+
+for the icons
+https://www.iconfinder.com/icons/172572/basketball_icon#size=128
+https://www.iconfinder.com/icons/301716/sea_sports_summer_vacation_icon#size=128
+https://www.iconfinder.com/icons/1296370/book_note_icon#size=128
+https://www.iconfinder.com/icons/669948/code_coding_html_programming_web_icon#size=128
+
+for the text justify
+https://www.w3schools.com/cssref/css3_pr_text-justify.asp
+
+font awesome brand icons
+https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+https://www.w3schools.com/icons/tryit.asp?filename=tryicons_awesome_intro_stack
+https://www.w3schools.com/icons/fontawesome_icons_brand.asp
+*/
+
+img  {
+    width: 25%;
+    border-radius: 50%;
+    filter: blur(2px);
+}
+
+img:hover{
+	filter: blur(0px);
+}
+
+h1, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    /*
+    margin-top: 20px;
+    margin-left: 85px;
+    */
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 1.2em;
+    word-wrap: normal;  
+    text-align: justify;
+    text-justify: inter-word;
+    /*
+    padding-right: 30px;
+    */
+    padding-right: 5%;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    color: #ff6600;
+    font-size: 1.2em;
+    font-style: italic;
+    text-decoration: none;
+}
+    
+a:link {
+    color: #ff6600;
+}
+a:visited {
+    color: #999999;
+}
+a:hover {
+    color: red;
+}
+
+/*for the social media logos; facebook, linked, github, codepen*/
+
+.span_margin {
+    /*
+    margin-top: -15px;
+    margin-left: 140px;
+    */
+    margin-top: -2%;
+    margin-left: 12%;
+}
+
+.social_media:link {
+    color: black;
+}
+.social_media:visited {
+    color: black;
+}
+.social_media:hover {
+    color: black;
+}
+
+.background_gradient {
+    background: linear-gradient(-90deg, #ffff66,  #88ff4d);
+}
+
+.info_img {
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+
+.info_text {
+    margin-top: -120px;
+    margin-left: 300px;
+}
+
+.hobby_img {
+    width: 7%;
+    /*
+    margin-top: 15px;
+    margin-left: 85px;
+    */
+    margin-top: 3.5%;
+    margin-left: 5%;
+    filter: blur(0px);
+}
+
+.hobby_text {
+    margin-bottom: 10px;
+    /*
+    margin-top: 35px;
+    margin-left: 85px;
+    */
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-right: 175px;
+}
+
+.contact_title {
+    color: #800040;
+    font-size: 1.15em;
+}
