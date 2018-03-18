@@ -1,0 +1,150 @@
+/*Resources
+https://www.w3schools.com/css/css3_borders.asp
+
+for the filter effects
+https://www.w3schools.com/cssref/playit.asp?filename=playcss_filter&preval=saturate(8)
+https://www.w3schools.com/cssref/css3_pr_filter.asp
+https://www.w3schools.com/howto/howto_css_image_effects.asp
+
+for the color of the hyperlink
+http://www.hyperlinkcode.com/change-hyperlink-color.php
+
+featured work alignment
+https://forums.adobe.com/thread/837685
+*/
+
+/*css properties for html elements*/
+
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color:  #ffffff;
+}
+
+a {
+    color: black;
+}
+    
+a:link {
+    color: black;
+}
+a:visited {
+    color: #999999;
+}
+a:hover {
+    color: #ff3300;
+}
+
+/*specific classes*/
+
+.background_gradient {
+    background: linear-gradient(-90deg, #ffff66,  #88ff4d);
+}
+
+/*for the full page value (this is the default case)*/
+.logo {
+    width: 20%;
+    position: absolute;
+    left: -25px;
+    margin-top: 5px;
+}
+
+.developer {
+    width: 80%;
+    margin-top: 70px;
+    /*margin-left: 140px;*/
+    margin-left: 10%;
+    filter:saturate(8);
+}
+
+.bio_link {
+    margin-top: 75px;
+    /*margin-left: 140px;*/
+    margin-left: 10%;
+    position: absolute;
+    font-size: 1.6em;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.info_box {
+    margin-left: 1000px;
+    margin-top: 25px;
+    border-radius: 15px 50px 30px;
+    background: #ccffdd;
+    padding: 30px; 
+    width: 225px;
+    height: 90px; 
+}
+
+.name_font {
+    font-weight: bold;
+    font-size: 1.4em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+}
+
+.title_font {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.welcome_message {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 315px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+.featured_work_title {
+    margin-top: 100px;
+    /*margin-left: 140px;*/
+    margin-left: 10%;
+    position: absolute;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    color:  #0000ff;
+}
+
+/*for the on hover attribute*/
+.name_font:hover {
+    font-size: 1.6em;
+    color: #6666ff
+}
+.title_font:hover {
+    font-size: 1.2em;
+    color:   #ff6600;
+}
+.logo:hover {
+    width: 25%;
+}
+.developer:hover {
+    filter:drop-shadow(8px 8px 10px gray);
+}
+
+.wrapper {
+    padding-top: 4%;
+    color:  #006600;
+    font-style: normal;
+    font-size: 0.8em; 
+    width: 100%;
+}
+.project_link_1 {
+    float: left;
+    width: 40%;
+}
+.project_link_2 {
+    float: left;
+    width: 40%;
+    padding-left: 15%;
+}
